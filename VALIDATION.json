@@ -32,5 +32,25 @@
     "vaultSaveReadDelete": "pass in rolled-back transaction",
     "paidGeneration": "not tested; no valid provider key supplied",
     "fullAppIntegration": "pass: authenticated settings, API errors, preference save, mobile layout"
+  },
+  "simpleApplications": {
+    "viewports": [
+      390,
+      1440
+    ],
+    "routesChecked": 15,
+    "sidebar": "removed",
+    "perAppHeaderAndFullScreen": "pass",
+    "taskCreateEditComplete": "pass",
+    "advancedFieldPreservation": "pass",
+    "richNoteSave": "pass",
+    "walletIncomeExpense": "pass",
+    "alternateKindRequiredDatesAndTitlePreservation": "pass",
+    "browserBackForward": "pass",
+    "mobileAgendaDefault": "pass",
+    "collapsedSettingsAccessibility": "pass",
+    "uncaughtJavaScriptErrors": 0,
+    "missingAssets": 0,
+    "horizontalOverflow": false
   }
 }
