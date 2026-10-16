@@ -1,5 +1,5 @@
-const CACHE = 'marwan-os-shell-20261016-2.1-auth-code';
-const SHELL = ['./', './index.html', './config.js', './manifest.webmanifest', './style.css', './font.css', './startup.js', './app.js', './auth-ui.js', './domain.js', './supabase.js'];
+const CACHE = 'marwan-os-shell-20261016-2.1-user-api';
+const SHELL = ['./', './index.html', './config.js', './manifest.webmanifest', './style.css', './font.css', './startup.js', './app.js', './auth-ui.js', './ai-settings.js', './domain.js', './supabase.js'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL))));
 self.addEventListener('message', event => { if (event.data === 'SKIP_WAITING') self.skipWaiting(); });
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('marwan-os-shell-') && key !== CACHE).map(key => caches.delete(key))))));

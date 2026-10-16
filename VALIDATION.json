@@ -20,5 +20,17 @@
   "limits": [
     "Email delivery is not used or tested by the new signup flow.",
     "The global email-provider confirmation setting is unchanged."
-  ]
+  ],
+  "userManagedApiKeys": {
+    "unitTestsTotal": 10,
+    "mockedSettingsUIWidths": [
+      390,
+      1440
+    ],
+    "realBackendInvalidClaudeAndGeminiKeys": "rejected without storage",
+    "anonymousKeyManagement": "denied",
+    "vaultSaveReadDelete": "pass in rolled-back transaction",
+    "paidGeneration": "not tested; no valid provider key supplied",
+    "fullAppIntegration": "pass: authenticated settings, API errors, preference save, mobile layout"
+  }
 }
