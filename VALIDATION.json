@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "domainTests": 6,
+    "browser": "Chromium 133",
+    "viewportWidths": [
+      390,
+      1440
+    ],
+    "loginView": "pass",
+    "signupNavigation": "pass",
+    "passwordRecoveryNavigation": "pass",
+    "local404s": 0,
+    "uncaughtJavaScriptErrors": 0,
+    "horizontalOverflow": false,
+    "serviceWorkerActivation": "pass",
+    "missingLibraryErrorView": "pass"
+  },
+  "limits": [
+    "Live account sign-in and database synchronization not tested."
+  ]
+}

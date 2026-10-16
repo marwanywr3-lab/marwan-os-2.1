@@ -1,0 +1,3 @@
+@supabase/supabase-js 2.117.3
+Source: https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3/dist/umd/supabase.js
+License: MIT (supabase-LICENSE.txt)
